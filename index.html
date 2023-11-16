@@ -37,7 +37,7 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Deuwi Satriya Irawan</span>
             <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.JPG" alt="Satria" />
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="img" alt="Satria" />
             </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -522,6 +522,25 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript">
+        // Make a request for a user with a given ID
+        axios.get('https://api.github.com/users/satriairawan05')
+        .then(function (response) {
+        // handle success
+            const img = document.getElementById('img');
+            img.src = response.data.avatar_url;
+        })
+        .catch(function (error) {
+        // handle error
+        console.log(error);
+        })
+        .finally(function () {
+        // always executed
+        });
+
+    </script>
 </body>
 
 </html>
