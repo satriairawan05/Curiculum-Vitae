@@ -11350,7 +11350,7 @@ h5,
     width: 100%;
     margin-bottom: 7em;
 }
-.page.four {
+.page, .one, .two, .three, .four .five {
     margin-bottom: 0;
 }
 .page .heading {
