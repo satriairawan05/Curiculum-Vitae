@@ -36,9 +36,9 @@ Selamat datang di halaman Curriculum Vitae (CV) saya yang dibuat menggunakan HTM
 
 ## 📬 Kontak
 
-- **Email**: [alamat email Anda]
-- **LinkedIn**: [tautan profil LinkedIn Anda]
-- **GitHub**: [tautan profil GitHub Anda]
+- **Email**: [satriai418@gmail.com]
+- **LinkedIn**: [[Deuwi Satriya Irawan](https://www.linkedin.com/in/satriai418/)]
+- **GitHub**: [[Deuwi Satriya Irawan](https://github.com/satriairawan05)]
 
 ---
 
