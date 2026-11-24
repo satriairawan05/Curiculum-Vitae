@@ -26,9 +26,6 @@
 	<link rel="stylesheet" href="./css/icomoon.css">
 	<link rel="stylesheet" href="./css/style.css">
 
-	<!-- Alpine JS -->
-	<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -168,177 +165,175 @@
 						</div>
 					</div>
 
-					<div id="organizations" class="page two" x-data="{
-	organizations: [
-		{
-			date: 'March 2021 - September 2021',
-			role: 'Staff Kominfo',
-			organization: 'Himpunan Mahasiswa TRPL',
-			responsibilities: [
-				'Design and Compile Work Programs',
-				'Evaluate Performance',
-				'Representing Organizations and Campuses in the framework of External Activities',
-				'Playing an active role in every agenda held'
-			]
-		},
-		{
-			date: 'September 2019 - Augustus 2020',
-			role: 'Head of the Department of Shiar and Ummah Services',
-			organization: 'Lembaga Kajian Islam Mahasiswa',
-			responsibilities: [
-				'Design and compile Work Programs',
-				'Establish Cooperation with Internal Campus and External Campus',
-				'Conduct Training according to Member Interests',
-				'Conduct periodic evaluations during the period',
-				'Take an active role as a Publication Coordinator at every event held',
-				'Representing Organizations and Campuses in the framework of External Activities',
-				'Prepare a Responsibility Sheet at the end of the period'
-			]
-		},
-		{
-			date: 'November 2018 - September 2019',
-			role: 'Head of Shiar Department',
-			organization: 'Lembaga Kajian Islam Mahasiswa',
-			responsibilities: [
-				'Design and compile Work Programs',
-				'Establish Cooperation with Internal Campus and External Campus',
-				'Conduct Training according to Member Interests',
-				'Conduct periodic evaluations during the period',
-				'Take an active role as a Publication Coordinator at every event held',
-				'Representing Organizations and Campuses in the framework of External Activities',
-				'Prepare a Responsibility Sheet at the end of the period'
-			]
-		}
-	]
-}">
+					<div id="organizations" class="page two">
 						<h2 class="heading">Organizations</h2>
-						<template x-for="(item, index) in organizations" :key="index">
-							<div class="resume-wrap d-flex ftco-animate">
-								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="flaticon-ideas"></span>
-								</div>
-								<div class="text pl-3">
-									<span class="date" x-text="item.date"></span>
-									<h2 x-text="item.role"></h2>
-									<span class="position" x-text="item.organization"></span><br>
-									<template x-for="(resp, rIndex) in item.responsibilities" :key="rIndex">
-										<span>
-											<span x-text="resp"></span><br>
-										</span>
-									</template>
-								</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
 							</div>
-						</template>
+							<div class="text pl-3">
+								<span class="date">March 2021 - September 2021</span>
+								<h2>Staff Kominfo</h2>
+								<span class="position">Himpunan Mahasiswa TRPL</span><br>
+								<span>Design and Compile Work Programs</span><br>
+								<span>Evaluate Performance</span><br>
+								<span>Representing Organizations and Campuses in the framework of External Activities
+								</span><br>
+								<span>Playing an active role in every agenda held</span>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">September 2019 - Augustus 2020</span>
+								<h2>Head of the Department of Shiar and Ummah Services</h2>
+								<span class="position">Lembaga Kajian Islam Mahasiswa</span><br>
+								<span>Design and compile Work Programs</span><br>
+								<span>Establish Cooperation with Internal Campus and External Campus</span><br>
+								<span>Conduct Training according to Member Interests</span><br>
+								<span>Conduct periodic evaluations during the period</span><br>
+								<span>Take an active role as a Publication Coordinator at every event held</span><br>
+								<span>Representing Organizations and Campuses in the framework of External
+									Activities</span><br>
+								<span>Prepare a Responsibility Sheet at the end of the period</span>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">November 2018 - September 2019</span>
+								<h2>Head of Shiar Department</h2>
+								<span class="position">Lembaga Kajian Islam Mahasiswa</span><br>
+								<span>Design and compile Work Programs</span><br>
+								<span>Establish Cooperation with Internal Campus and External Campus</span><br>
+								<span>Conduct Training according to Member Interests</span><br>
+								<span>Conduct periodic evaluations during the period</span><br>
+								<span>Take an active role as a Publication Coordinator at every event held</span><br>
+								<span>Representing Organizations and Campuses in the framework of External
+									Activities</span><br>
+								<span>Prepare a Responsibility Sheet at the end of the period</span>
+							</div>
+						</div>
 					</div>
 
-					<div id="experiences" class="page three" x-data="{
-	experiences: [
-		{
-			date: 'November 2026 - November 2026',
-			role: 'STORE OPERATIONAL & ADMINISTRATION STAFF (PART TIME)',
-			company: 'Nuansa 2 Copy Centre',
-			responsibilities: [
-				'Equipment Operation & Maintenance',
-				'Document Finishing & Binding',
-				'Customer Service & Consultation',
-				'Document Processing & Formatting',
-				'Cashiering & Daily Financial Reconciliation',
-				'Inventory & Shelf Management',
-				'Store Closing & Facility Maintenance'
-			]
-		},
-		{
-			date: 'May 2026 - Augustus 2026',
-			role: 'ADMINISTRATIVE OFFICER (PART TIME)',
-			company: 'Aam Group',
-			responsibilities: [
-				'Analyze and design systems as needed',
-				'Create a timeline report for the project needed',
-				'Build & Development PHP based framework',
-				'Visits to other outlets to collect data and analyze it for the needs of the system to be created',
-				'Record and edit videos at certain moments',
-				'Be an actor in making outlet promotional videos',
-				'Upload project to cPanel',
-				'Testing the system created with users',
-				'Write documentation of the system created',
-				'Presentation to users'
-			]
-		},
-		{
-			date: 'March 2025 - March 2025',
-			role: 'ADMINISTRATIVE OFFICER (PART TIME)',
-			company: 'LAMPAK PUTIH KERAMIK',
-			responsibilities: [
-				'Design and build a ceramic goods inventory information system and deploy it to cPanel',
-				'Signing the Delivery Note for incoming and outgoing goods from the shop',
-				'Checking goods to be loaded and unloaded and coordinating with checkers in the field periodically'
-			]
-		},
-		{
-			date: 'June 2023 - February 2024',
-			role: 'INFORMATION TECHNOLOGY DEVELOPER STAFF (CONTRACT)',
-			company: 'PT. BANGUN SUEMERU SEJAHTERA / PT. BARU SUEMERU SEJATI (SUEMERU GRUP)',
-			responsibilities: [
-				'Analyze and design systems as needed',
-				'Build & Development PHP based framework',
-				'Upload project to cPanel',
-				'Testing the system created with users',
-				'Write documentation of the system created'
-			]
-		},
-		{
-			date: 'March 2023 - April 2023',
-			role: 'CREW STORE (PART TIME)',
-			company: 'BEBEK GORENG H. SLAMET ( ASLI )',
-			responsibilities: [
-				'Prepare preparation to open a restaurant',
-				'Serving Customers in accordance with existing Standard Operational Procedures',
-				'Assist Kitchen Crew in preparing orders',
-				'Delivered order to Customers',
-				'Prepare preparation for closing the restaurant'
-			]
-		},
-		{
-			date: 'September 2021 - December 2021',
-			role: 'INFORMATION TECHNOLOGY DEVELOPER (INTERN)',
-			company: 'DINAS PERPUSTAKAAN DAN KEARSIPAN KOTA SAMARINDA',
-			responsibilities: [
-				'Determine what technology will be used in making the system',
-				'Understand System Workflow using UML or ERD',
-				'Start the Coding Process',
-				'Testing the system created',
-				'Write documentation of the system created'
-			]
-		},
-		{
-			date: 'October 2016 - February 2017',
-			role: 'DATA ENTRY ASSISTANT (INTERN)',
-			company: 'DINAS PEMUDA DAN OLAHRAGA PROVINSI KALIMANTAN TIMUR',
-			responsibilities: [
-				'Input official archive data using Microsoft Excel',
-				'Design a book cover using CorelDRAW X7'
-			]
-		}
-	]
-}">
+					<div id="experiences" class="page three">
 						<h2 class="heading">Experiences</h2>
-						<template x-for="(item, index) in experiences" :key="index">
-							<div class="resume-wrap d-flex ftco-animate">
-								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="flaticon-ideas"></span>
-								</div>
-								<div class="text pl-3">
-									<span class="date" x-text="item.date"></span>
-									<h2 x-text="item.role"></h2>
-									<span class="position" x-text="item.company"></span><br>
-									<template x-for="(resp, rIndex) in item.responsibilities" :key="rIndex">
-										<span>
-											<span x-text="resp"></span><br>
-										</span>
-									</template>
-								</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
 							</div>
-						</template>
+							<div class="text pl-3">
+								<span class="date">November 2026 - November 2026</span>
+								<h2>STORE OPERATIONAL & ADMINISTRATION STAFF (PART TIME)</h2>
+								<span class="position">Nuansa 2 Copy Centre</span><br>
+								<span>Equipment Operation & Maintenance</span><br>
+								<span>Document Finishing & Binding</span><br>
+								<span>Customer Service & Consultation</span><br>
+								<span>Document Processing & Formatting</span><br>
+								<span>Cashiering & Daily Financial Reconciliation</span><br>
+								<span>Inventory & Shelf Management</span><br>
+								<span>Store Closing & Facility Maintenance</span><br>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">May 2026 - Augustus 2026</span>
+								<h2>ADMINISTRATIVE OFFICER (PART TIME)</h2>
+								<span class="position">Aam Group</span><br>
+								<span>Analyze and design systems as needed</span><br>
+								<span>Create a timeline report for the project needed</span><br>
+								<span>Build & Development PHP based framework</span><br>
+								<span>Visits to other outlets to collect data and analyze it for the needs of the system
+									to be created</span><br>
+								<span>Record and edit videos at certain moments</span><br>
+								<span>Be an actor in making outlet promotional videos</span><br>
+								<span>Upload project to cPanel</span><br>
+								<span>Testing the system created with users</span><br>
+								<span>Write documentation of the system created</span><br>
+								<span>Presentation to users</span><br>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">March 2025 - March 2025</span>
+								<h2>ADMINISTRATIVE OFFICER (PART TIME)</h2>
+								<span class="position">LAMPAK PUTIH KERAMIK</span><br>
+								<span>Design and build a ceramic goods inventory information system and deploy it to
+									cPanel</span><br>
+								<span>Signing the Delivery Note for incoming and outgoing goods from the shop</span><br>
+								<span>Checking goods to be loaded and unloaded and coordinating with checkers in the
+									field periodically</span><br>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">June 2023 - February 2024</span>
+								<h2>INFORMATION TECHNOLOGY DEVELOPER STAFF (CONTRACT)</h2>
+								<span class="position">PT. BANGUN SUEMERU SEJAHTERA / PT. BARU SUEMERU SEJATI (SUEMERU
+									GRUP)</span><br>
+								<span>Analyze and design systems as needed</span><br>
+								<span>Build & Development PHP based framework</span><br>
+								<span>Upload project to cPanel</span><br>
+								<span>Testing the system created with users</span><br>
+								<span>Write documentation of the system created</span>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">March 2023 - April 2023</span>
+								<h2>CREW STORE (PART TIME)</h2>
+								<span class="position">BEBEK GORENG H. SLAMET ( ASLI )</span><br>
+								<span>Prepare preparation to open a restaurant</span><br>
+								<span>Serving Customers in accordance with existing Standard Operational
+									Procedures</span><br>
+								<span>Assist Kitchen Crew in preparing orders</span><br>
+								<span>Delivered order to Customers</span><br>
+								<span>Prepare preparation for closing the restaurant</span>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">September 2021 - December 2021</span>
+								<h2>INFORMATION TECHNOLOGY DEVELOPER (INTERN)</h2>
+								<span class="position">DINAS PERPUSTAKAAN DAN KEARSIPAN KOTA SAMARINDA</span><br>
+								<span>Determine what technology will be used in making the system</span><br>
+								<span>Understand System Workflow using UML or ERD</span><br>
+								<span>Start the Coding Process</span><br>
+								<span>Testing the system created</span><br>
+								<span>Write documentation of the system created</span>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">October 2016 - February 2017</span>
+								<h2>DATA ENTRY ASSISTANT (INTERN)</h2>
+								<span class="position">DINAS PEMUDA DAN OLAHRAGA PROVINSI KALIMANTAN TIMUR</span><br>
+								<span>Input official archive data using Microsoft Excel</span><br>
+								<span>Design a book cover using CorelDRAW X7</span>
+							</div>
+						</div>
 					</div>
 
 					<div id="skills" class="page four">
@@ -543,54 +538,64 @@
 						</div>
 					</div>
 
-					<div id="awards" class="page five" x-data="{
-	awards: [
-		{
-			date: '2023 - 2024',
-			title: 'Mahir Membuat Website dengan Laravel 9',
-			issuer: 'Coding Studio',
-			description: 'Mahir Membuat Website dengan Laravel 9'
-		},
-		{
-			date: '2021 - 2022',
-			title: 'Kelas Menulis Cerpen dan Kontribusi pada Buku Kenangan Sejuta Pena Samarinda',
-			issuer: 'Dinas Perpustakaan dan Kearsipan Kota Samarinda',
-			description: 'Berkontribusi sebagai Author pada Buku Kenangan Sejuta Pena Samarinda yang diterbitkan Dinas Perpustakaan Kota Samarinda'
-		},
-		{
-			date: '2020 - 2020',
-			title: 'Belajar Membuat Aplikasi Android untuk Pemula',
-			issuer: 'Dicoding Academy',
-			description: 'Belajar Membuat Aplikasi Android untuk Pemula by Dicoding Academy'
-		},
-		{
-			date: '2020 - 2020',
-			title: 'Belajar Dasar Pemrograman Web',
-			issuer: 'Dicoding Academy',
-			description: 'Belajar Dasar Pemrograman Web by Dicoding Academy'
-		},
-		{
-			date: 'June 2020 - September 2020',
-			title: 'Kelas Media',
-			issuer: 'FSLDK (Forum Silaturahim Lembaga Dakwah Kampus)',
-			description: 'Kelas Media I FSLDK (Forum Silaturahim Lembaga Dakwah Kampus)'
-		}
-	]
-}">
+					<div id="awards" class="page five">
 						<h2 class="heading">Awards</h2>
-						<template x-for="(item, index) in awards" :key="index">
-							<div class="resume-wrap d-flex ftco-animate">
-								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="flaticon-ideas"></span>
-								</div>
-								<div class="text pl-3">
-									<span class="date" x-text="item.date"></span>
-									<h2 x-text="item.title"></h2>
-									<span class="position" x-text="item.issuer"></span>
-									<p x-text="item.description"></p>
-								</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
 							</div>
-						</template>
+							<div class="text pl-3">
+								<span class="date">2023 - 2024</span>
+								<h2>Mahir Membuat Website dengan Laravel 9</h2>
+								<span class="position">Coding Studio</span>
+								<p>Mahir Membuat Website dengan Laravel 9</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021 - 2022</span>
+								<h2>Kelas Menulis Cerpen dan Kontribusi pada Buku Kenangan Sejuta Pena Samarinda</h2>
+								<span class="position">Dinas Perpustakaan dan Kearsipan Kota Samarinda</span>
+								<p>Berkontribusi sebagai Author pada Buku Kenangan Sejuta Pena Samarinda yang
+									diterbitkan Dinas Perpustakaan Kota Samarinda</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2020 - 2020</span>
+								<h2>Belajar Membuat Aplikasi Android untuk Pemula</h2>
+								<span class="position">Dicoding Academy</span>
+								<p>Belajar Membuat Aplikasi Android untuk Pemula by Dicoding Academy</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2020 - 2020</span>
+								<h2>Belajar Dasar Pemrograman Web</h2>
+								<span class="position">Dicoding Academy</span>
+								<p>Belajar Dasar Pemrograman Web by Dicoding Academy</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">June 2020 - September 2020</span>
+								<h2>Kelas Media</h2>
+								<span class="position">FSLDK (Forum Silaturahim Lembaga Dakwah Kampus)</span>
+								<p>Kelas Media I FSLDK (Forum Silaturahim Lembaga Dakwah Kampus)</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
